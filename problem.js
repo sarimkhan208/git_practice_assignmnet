@@ -1,7 +1,8 @@
 //  find prime number
 
 let n=7
-for(i=0;i<=n;i++){
+let count=0
+for(i=1;i<=n;i++){
 	if(n%i==0){
 	count++
 }
@@ -17,7 +18,7 @@ if(count==2){
 
 let str1 = "aman";
 let str2 = "";
-for(i=str1.length-1; i>=0; i++){
+for(i=str1.length-1; i>=0; i--){
   str2=str2+str1[i];
 }
 if(str1==str2){
